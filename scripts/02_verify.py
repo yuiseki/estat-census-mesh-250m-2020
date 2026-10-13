@@ -60,7 +60,10 @@ def main() -> int:
     same = differ = 0
     for a, b in PAIRS:
         for code in (f"{i:02d}" for i in range(1, 48)):
-            pa, pb = raw / m.UNIT / a / f"tbl{a}{m.UNIT}{code}.zip", raw / m.UNIT / b / f"tbl{b}{m.UNIT}{code}.zip"
+            pa, pb = (
+                raw / m.UNIT / a / f"tbl{a}{m.UNIT}{code}.zip",
+                raw / m.UNIT / b / f"tbl{b}{m.UNIT}{code}.zip",
+            )
             if not (pa.exists() and pb.exists()):
                 continue
             if m.same_values(member(pa), a, member(pb), b):

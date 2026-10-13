@@ -1,0 +1,7 @@
+source: 政府統計の総合窓口 (e-Stat) 統計GIS, 令和2年国勢調査, 250m メッシュ
+url: https://www.e-stat.go.jp/gis/statmap-search?page=1&type=1&toukeiCode=00200521&toukeiYear=2020&aggregateUnit=Q&serveyId=Q002005112020&statsId=T001102
+retrieved: 2026-10-13
+run: 2026-10-13
+terms: https://www.e-stat.go.jp/terms-of-use
+files: 564
+rows: 13975584
